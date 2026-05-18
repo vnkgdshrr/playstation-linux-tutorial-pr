@@ -5,7 +5,7 @@
 
 # Proton optimizations
 
-- For proton we can use either [Proton-Sarek](https://github.com/pythonlover02/Proton-Sarek) or [Proton-CachyOS](https://github.com/CachyOS/proton-cachyos).
+- For proton we can use either [Proton-Sarek](https://github.com/sillyfish38/Proton-Sarek) or [Proton-CachyOS](https://github.com/CachyOS/proton-cachyos).
 
 > [!TIP]
 > Instead of just installing these compile them manually using custom -march and -mtune flags, those being *-march=btver2* and *-mtune=btver2* to apply btver2 optimizations.
