@@ -95,5 +95,3 @@ Or, if you want a smaller command:
 ```bash
 cd / && sudo tar -cvpf ps4linux.tar.xz --exclude=/ps4linux.tar.xz --exclude=/var/cache/* --one-file-system / -I "xz -T0 -6"
 ```
-
-Then move the file over to the PS4. And... Follow the guide again...?
