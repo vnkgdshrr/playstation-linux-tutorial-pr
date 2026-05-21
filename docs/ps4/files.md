@@ -1,23 +1,12 @@
 # Getting the files
 
 > [!WARNING]
-> Some of the following links look sketchy, but the community is a divided mess for various reasons one of them being language barrier, and not many people work on the ps4. Refer to the [Other Issues](/ps4/issues#other-issues) section for a rant.
+> Some of the following links look sketchy, but the community is a divided mess for various reasons one of them being language barrier, stealing source, and not many people work on the ps4. Refer to the [Other Issues](/ps4/issues#other-issues) section more info.
 ## Kernels
 
 This is the section for recommended kernels. There are both vanilla kernels and performance kernels. Ordered by newest to oldest, the top ones are the recommended ones.
 
 [Credits for all of these kernels](/ps4/ending#credits).
-
-::: details Read this if you're confused!
-### Do kernel versions matter?
-Yes, but only for Baikal, as it has been stuck on 5.4 for a while and can't use modern GPU drivers anymore. For the rest, it doesn't matter.
-
-The community has moved on from 6.15 to 6.18, and now there is also active 7.0 kernel work for Aeolia and Belize. Baikal is still catching up.
-
-### What about more performance?
-If all you care about is squeezing as much performance as possible out of the PS4 (you proabbly do) try the performance kernel section. Those have patches to make the system more responsive. 
-- These kernels while still called "*performance kernels*" do not really improve any performance so do not expect 30% fps boost just from changing 1 file. 
-:::
 
 ### Kernel list
 These are normal general-use kernels with additional patches to make them work properly on the PS4.
@@ -78,25 +67,6 @@ You can of course use other distros, but you do run the risk of breaking your di
 | [Arch - Baikal Ed.](https://mega.nz/file/JNkUgZLY#q-XwRcz81SLyMBE_-RIpbtRZIi2pGaH-8xCc6-uFXRI)      | Baikal<br>(Mesa 25.1)             | [deeWaardt](https://github.com/deWaardt)        | Test distro. Use this if you have a Baikal system.<br>[More info](https://discord.com/channels/969774306928251030/969782998029459486/1480523958817394698). |
 | [CachyOS "Strawberry" Server Edition](https://github.com/sony-jaguar-devs/distros/releases)         | Aeolia, Belize                    | [rmux](https://github.com/rmuxnet/)             | *For server use only*! It doesn't run any DE!                                                                                                              |
 | [JaguarLinux](https://ps4linux.com/forums/d/265-jaguarlinux-a-ps4-linux-only-distro-beta-release/3) | Aeolia, Belize<br>(Mesa 26-devel) | [TigerClips1](https://github.com/TigerClips1/)  | A distro made from scratch for the PS4! Void-based & in development. Worth a mention.                                                                      |
-### More distros
-Here are the distros that we can't recommend anymore, as they have been superseeded, or haven't had any major updates in a while.
-
-It may be useful to you if you want something other than Arch, or if you have a Baikal southbridge.
-
-::: details Click here to show more distros
-
-| Distro                                                                                           | Compatible Southbridge & Mesa          | Port credits                                                              | Info                                                                    |
-| ------------------------------------------------------------------------------------------------ | -------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [CachyOS](https://mega.nz/file/RyUVQARB#HZD49XXac_v2CYKD4Oqa7Tg1aiZ7ltH_cnDxixw9JjY)             | All<br>(Mesa 25.1.0)                   | [Elokuba (Qba)](https://www.youtube.com/channel/UCU-eXjZ7Ud0k2wC_14mqdOw) | "Final Fantasy v2" version. It has nothing to do with FF. Mere fantasy. |
-| [EndeavourOS](https://ps4linux.com/forums/d/386-endeavouros-gaming-rebirth)                      | All?<br>(Mesa Version ?)               | [Elokuba (Qba)](https://www.youtube.com/channel/UCU-eXjZ7Ud0k2wC_14mqdOw) | Arch based distro that's nice to use and easy to maintain               |
-| [Manjaro](https://ps4linux.com/forums/d/342-manjaro-from-scratch)                                | All?<br>(Mesa Version ?)               | [Elokuba (Qba)](https://www.youtube.com/channel/UCU-eXjZ7Ud0k2wC_14mqdOw) | A Manjaro KDE distro                                                    |
-| [Garuda](https://ps4linux.com/forums/d/415-garuda-dr460nized-gaming-v2/2)                        | All?<br>(Mesa Version ?)               | [Elokuba (Qba)](https://www.youtube.com/channel/UCU-eXjZ7Ud0k2wC_14mqdOw) | "Gaming focused" distro (not really)                                    |
-| [Fedora 42](https://ps4linux.com/forums/d/399-fedora42-by-qba-triki1kdewayland)                  | Aeolia, Belize<br>(Mesa 26)            | [Elokuba (Qba)](https://www.youtube.com/channel/UCU-eXjZ7Ud0k2wC_14mqdOw) | Normal Fedora running KDE on Wayland                                    |
-| [Debian Forky](https://ps4linux.com/forums/d/373-debian-forky-sid/3)                             | Aeolia, Belize<br>(Mesa 25.3+)         | [triki1](https://www.youtube.com/@trakerchris9876)                        | Very new distro. Extremely bleeding edge.                               |
-| [Kali Linux](https://ps4linux.com/forums/d/392-debian-forky-kali-linux-edition)                  | All<br>(Mesa 25.0.3-devel+)            | [triki1](https://www.youtube.com/@trakerchris9876)                        | Based on Debian Forky, but with Kali Linux stuff included               |
-| [Debian Trixie](https://ps4linux.com/forums/d/369-debien-trixie-full-update-mesa-2520-devel/13)  | Aeolia, Belize<br>(Mesa 25.2.0-devel+) | [triki1](https://www.youtube.com/@trakerchris9876)                        | Latest Debian                                                           |
-| [Xubuntu](https://ps4linux.com/forums/d/337-xubuntu-2504-final-release)                          | All<br>(Mesa 25.0.5)                   | [triki1](https://www.youtube.com/@trakerchris9876)                        | Divided into multiple files                                             |
-| [Batocera 40](https://ps4linux.com/forums/d/252-batocera-40-for-ps4-installation-setup-tutorial) | All<br>(Mesa 22.1.7)                   | [Noob404](https://www.youtube.com/channel/UC9pY5BDCjDLOC4j-zkHPu8)        | For retrogaming                                                         |
 
 >[!TIP]
 >Want to add more distros? Make an issue and your wish shall be granted.
@@ -104,4 +74,3 @@ It may be useful to you if you want something other than Arch, or if you have a 
 >Want to make your own? [Check this out!](/ps4/distrodiy)
 
 
-:::

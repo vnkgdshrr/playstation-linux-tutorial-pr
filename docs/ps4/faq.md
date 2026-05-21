@@ -15,6 +15,14 @@ A: Baikal support has been greatly improved since the new developers joined the 
 ## Q: Does baikal support internal install?
 A: Yes baikal supports internal install now.
 
+## Q: Does kernel version matter?
+A: No not really
+
+## Q: What about performance kernels?
+A: If all you care about is squeezing as much performance as possible out of the PS4 (you proabbly do) try the performance kernel section. Those have patches to make the system more responsive.
+
+  -  These kernels while still called "performance kernels" do not really improve any performance so do not expect 30% fps boost just from changing 1 file.
+
 ## Q: Is any other operating system supported?
 A: Now as of now no other OS is supported but there are possible ones that can work like OpenBSD,FreeBSD and other such distros. **AND NO WINDOWS IS NOT AND NEVER WILL BE SUPPORTED**
 
