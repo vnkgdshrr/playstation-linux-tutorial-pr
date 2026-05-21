@@ -1,22 +1,21 @@
 # Key information
 This guide wouldn't exist without Dionkill.
 
-::: details Is it reversible? Will it delete all my games and saves?
+## Is it reversible? Will it delete all my games and saves?
 All your data will stay intact. Whether you install it on the internal HDD or an external drive, you will keep your data as you first need to exploit your console at every boot.
 
 The internal drive method actually creates a file as big as you want it to be which is going to be mounted whenever you launch Linux as its own virtual hard disk, so it won't overwrite any data you have on your console.
 For the external drive method your HDD isn't even touched at all.
 
 TLDR: yes it is reversible, and no you won't lose any data.
-:::
 
-::: details What consoles are compatible?
+
+## What consoles are compatible?
 All consoles that can run a homebrew enabler (like GoldHEN or ps4hen) are able to run Linux. But how you run Linux is also dependent on your southbridge, which will be covered in later sections.
 
 At the time of writing, the newest compatible firmware is <Badge type="tip" text="Up to 13.02" />.
 
 You should be able to get a working installation either way regardless of your southbridge.
-:::
 
 ## Video guide (optional)
 
