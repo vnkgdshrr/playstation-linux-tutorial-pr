@@ -23,7 +23,7 @@ If all you care about is squeezing as much performance as possible out of the PS
 These are normal general-use kernels with additional patches to make them work properly on the PS4.
 
 > [!tip]
-> Get the `bzImage_Clang_thinLTO`, if available. Some consoles may require the use of the `no-built-in-fw` variant.
+> For 6.15.4 kernel get the `bzImage_Clang_thinLTO`, if available. Some consoles may require the use of the `no-built-in-fw` variant.
 
 | Kernel Download                                                                                           | Compatible Southbridges | Source Code                                         | Extra info                                                                            |
 | --------------------------------------------------------------------------------------------------------- | ----------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------- |
