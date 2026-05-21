@@ -6,6 +6,7 @@ export default({
   description: 'Linux installation guides for PS4 and PS5 systems',
 
   head: [
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
     ['link', { rel: 'icon', href: '/playstation-linux-tutorial/favicon/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { property: 'og:image', content: '/playstation-linux-tutorial/og-image.png' }]
@@ -13,7 +14,7 @@ export default({
 
   themeConfig: {
     nav: [
-      { text: '🏠 Home', link: '/' },
+      { text: 'Home', link: '/' },
       { text: 'Playstation 4 Guide', link: '/ps4/information' },
       { text: 'Playstation 5 Guide', link: '/ps5/information' },
     ],
@@ -21,13 +22,13 @@ export default({
     sidebar: {
       '/ps4/': [
         {
-          text: '📖 PS4 Linux Guide',
+          text: 'PS4 Linux Guide',
           items: [
-            { text: '📌 Information', link: '/ps4/information' },
-            { text: '⚙️ Setup & Requirements', link: '/ps4/setup' },
-            { text: '📁 Files', link: '/ps4/files' },
+            { text: 'Information', link: '/ps4/information' },
+            { text: 'Setup & Requirements', link: '/ps4/setup' },
+            { text: 'Files', link: '/ps4/files' },
             {
-              text: '💿 Installation',
+              text: 'Installation',
               collapsed: false,
               items: [
                 { text: 'Internal Install', link: '/ps4/internal-installation' },
@@ -38,14 +39,14 @@ export default({
               ]
             },
             {
-              text: '💡 Knowledge Base',
+              text: 'Knowledge Base',
               collapsed: false,
               items: [
                 { text: 'FAQ', link: '/ps4/faq' }
               ]
             },
             {
-              text: '🎮 Gaming & Performance',
+              text: 'Gaming & Performance',
               collapsed: true,
               items: [
                 { text: 'Game Compatibility', link: '/ps4/games' },
@@ -55,7 +56,7 @@ export default({
               ]
             },
             {
-              text: '🛠️ Advanced',
+              text: 'Advanced',
               collapsed: true,
               items: [
 		            { text: 'UART', link: '/ps4/uart' },
@@ -63,7 +64,7 @@ export default({
                 { text: 'Distro DIY', link: '/ps4/distrodiy' }
               ]
             },
-            { text: '🏁 Conclusion', link: '/ps4/ending' }
+            { text: 'Conclusion', link: '/ps4/ending' }
           ]
         }
       ],
