@@ -39,9 +39,13 @@ Displays real-time performance metrics while gaming, including:
 - temperatures
 - power draw
 
-Install it by running ``sudo pacman -S mangohud --noconfirm``
+---
 
->If you wanna use mangohud for 32bit games enable multilib repo and run ``yay -S lib32-mangohud --noconfirm``.
+::: details Running Mangohud
+
+- Install it by running ``sudo pacman -S mangohud --noconfirm``
+
+- If you wanna use mangohud for 32bit games enable multilib repo and run ``yay -S lib32-mangohud --noconfirm``.
 
 For running a game with mangohud outside launchers like steam is done by running:
 
@@ -62,6 +66,7 @@ mangohud %command%
 
 - And for vulkan games you just do ``MANGOHUD=1 *game*``
 
+:::
 
 ## Steam Overlay
 

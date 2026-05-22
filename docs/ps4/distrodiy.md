@@ -43,17 +43,21 @@ Here are a few repositories to get started:
 
 Otherwise, on some Discords, you can find (possibly illegal?) personal forks for these drivers. Most of these are in french, so watch out.
 ## Porting
-> [!TIP]
-> From here on out is uncharted territory. Good luck.
 
-Jokes aside, you would need to do something like so:
+
+You would need to do something like:
 - Install your distro and possibly configure it to your liking
 	- If you want to make it public... Please don't. Leave it with American English and move on. Don't put 90s renders of anime girls, we don't want them...
+
+---
 
 Uninstall the `mesa-git`, `libdrm`, and `xf86-video-amdgpu` packages, and install the ones that are required by the PS4.
 To uninstall the mesa packages, use your package manager instructions. Do not remove the dependencies, as it could break your system. just remove `mesa` and `lib32-mesa`.
 - DO NOT USE MESA 22 FFS, IF YOU DO YOU ARE LIKE ACTUALLY A MORON
 - The PS4 does NOT support hardware video encoding. It's locked behind DRM.
+
+
+---
 
 ::: details Package management config (if you don't want to update Mesa)
 After that you need to add these packages to the ignore section so they can't be updated. On Arch based distros, change your pacman config, and add these packages to the ignore section:
