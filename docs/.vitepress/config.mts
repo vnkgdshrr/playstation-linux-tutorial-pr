@@ -1,6 +1,18 @@
 import { defineConfig } from 'vitepress'
+import { compression } from 'vite-plugin-compression2'
 
 export default({
+  build: {
+    target: 'esnext',
+    sourcemap: false,
+    minify: 'esbuild',
+  },
+  plugins: [
+    compression({
+     algorithms: ['gzip'],
+     threshold: 1024,
+    })
+  ],
   base: '/playstation-linux-tutorial/',
   title: 'PlayStation Linux Guide',
   description: 'Linux installation guides for PS4 and PS5 systems',
