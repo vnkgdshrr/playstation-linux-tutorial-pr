@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 import { compression } from 'vite-plugin-compression2'
 
 export default({
-  build: {
+  appearance: 'false',
+    build: {
     target: 'esnext',
     sourcemap: false,
     minify: 'esbuild',
