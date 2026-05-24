@@ -155,8 +155,3 @@
   max-width: 100% !important;
   padding-right: 0px !important; /* Adjust to control how close to the edge it sits */
 }
-
-.VPNavBar .content-body {
-  justify-content: flex-end !important;
-  flex-grow: 1;
-}

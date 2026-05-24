@@ -9,14 +9,12 @@ hero:
     src: /giphy.gif
     alt: PS Linux Guide
   actions:
-    - theme: alt
+    - theme: brand
       text: 🏁 PS4 Guide
       link: /ps4/information
-
-    - theme: alt
+    - theme: brand
       text: 🏁 PS5 Guide
       link: /ps5/information
-
     - theme: alt
       text: View on GitHub
       link: https://github.com/Zfentom/playstation-linux-tutorial/
@@ -32,4 +30,3 @@ features:
     title: Built from Frustration
     details: This guide was built out of frustration to document the missing steps that other tutorials simply overlook or make one that does not even exist.
 ---
-
