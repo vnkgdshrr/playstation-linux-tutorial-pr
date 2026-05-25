@@ -141,7 +141,8 @@ sidebar: {
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Zfentom/playstation-linux-tutorial/' }
+      { icon: 'github', link: 'https://github.com/Zfentom/playstation-linux-tutorial/' },
+      { icon: 'discord', link: 'https://discord.gg/DPKHXvXb4' }
     ],
     footer: {
       message: 'Released under Apache 2.0 License',
