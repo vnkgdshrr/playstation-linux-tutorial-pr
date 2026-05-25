@@ -26,8 +26,8 @@ export default({
   ],
 
 search: {
-      provider: 'local'
-    },
+   provider: 'local'
+},
 
   themeConfig: {
     outline: false,
