@@ -2,11 +2,11 @@
 layout: home
 
 hero:
-  name: "Playstation <span class='vp-home-hero-name-gradient'>Linux</span>"
+  name: "PlayStation <span class='vp-home-hero-name-gradient'>Linux</span>"
   text: "Unlock the Full Potential of Your Old or Unused Console"
   tagline: "A comprehensive, community-driven guide made by Zfentom."
   image:
-    src: /giphy.gif
+    src: /test.webp
     alt: PS Linux Guide
   actions:
     - theme: brand
@@ -26,7 +26,4 @@ features:
   - icon: ⚡
     title: Streamlined Setup
     details: This walks you through installation, maintenance, and optimization to turn Linux into a viable, operating system on your hardware.
-  - icon: 🛠️
-    title: Built from Frustration
-    details: This guide was built out of frustration to document the missing steps that other tutorials simply overlook or make one that does not even exist.
 ---
