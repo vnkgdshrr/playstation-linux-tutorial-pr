@@ -26,13 +26,13 @@ A: Yes you can emulate pretty much any game that is not PS4 of course, because s
 Quote from one of the new lead devs:
 rmux: *"never let a french retard code something for PlayStation"*
 
-## Q: What are the limitations of the ps4 and linux
+## Q: What are the limitations of the PS4 and linux
 
 ## Hardware
 
 - While PS4 Linux support has improved significantly, the hardware still has several unavoidable limitations that affect overall performance and usability. The most notable constraints are the shared 8GB pool of GDDR5 system memory and the relatively weak CPU, both of which can become major bottlenecks depending on the workload. These limitations cannot truly be eliminated, only worked around or optimized for.
 
-- Also the PS44 FAT/Slim models are noticeable weaker for gaming.
+- Also the PS4 FAT/Slim models are noticeable weaker for gaming.
 
 ## Software
 

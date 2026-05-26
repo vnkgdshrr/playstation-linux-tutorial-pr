@@ -11,7 +11,7 @@ Updating your system can be a bit of a pain in the ass, as some of the packages 
 
 ::: details Arch based distros (with driver updates)
 
-- NOTE: CachyOS lite already has this repo configured.
+- NOTE: CachyOS Lite already has this repo configured.
 
 To update the drivers, you need to open the pacman config:
 ```bash
