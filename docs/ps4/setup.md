@@ -93,14 +93,14 @@ In order to do that, open up your FTP file manager of choice.
 - The built-in Windows File Explorer
 	- This one likes to crash the desktop if it can't connect, be careful
 - WinSCP (recommended, using the simple interface)
-- Filezilla - Binary mode
+- Filezilla
 
 #### Linux
 - Built in File explorer, if yours allows it.
-- Filezilla - Binary mode
+- Filezilla
 
 #### MacOS
-- Filezilla - Binary mode
+- Filezilla
 
 > [!warning]
 > If you use Filezilla, use "binary mode" to transfer files, as the FTP in GoldHen has issues when transferring files!

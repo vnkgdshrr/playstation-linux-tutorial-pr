@@ -21,11 +21,11 @@ hero:
 
 features:
   - icon:
-      src: /icons/recycle1.svg
+      src: ./public/icons/recycle.svg
     title: Combat E-Waste
     details: Breathe new life into your aging hardware. Whether it's an old PS4 or a dormant PS5, transform your console into a functional workstation instead of letting it collect dust.
   - icon: 
-      src: /icons/cpu1.svg
+      src: ./public/icons/cpu.svg
     title: Streamlined Setup
     details: This walks you through installation, maintenance, and optimization to turn Linux into a viable, operating system on your hardware.
 ---
